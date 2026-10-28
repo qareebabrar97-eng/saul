@@ -1,0 +1,98 @@
+/* Common Css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ol ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+/* Common Css end */
+/* Header start */
+#header{
+    padding: 50px 0;
+    background-color: #222831;
+    border-bottom: 2px solid #eeeeee18;
+}
+.headWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 48px;
+}
+.menu ul a li{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #EEEEEE;
+    list-style: none;
+}
+/* Header end */
+/* Banner start */
+#bannerPart{
+    padding-top: 173px;
+    padding-bottom: 73px;
+    background-color: #222831;
+    position: relative;
+}
+.bannerIcon{
+    position: absolute;
+    bottom: 400px;
+}
+.bannerWrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.bannerTxt{
+    margin-left: 87px;
+    margin-top: 50px;
+}
+.bannerTxt h1{
+      font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 700;
+    color: #EEEEEE;
+    width: 586px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+
+}
+.bannerTxt h1 span{
+      
+    color: #00ADB5;
+    
+
+}
+.bannerBtn {
+    display: flex;
+    gap: 24px;
+}
+.bannerBtn a{
+    padding: 10px 32px;
+    background: #00ADB5;
+    border-radius: 24px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px #000000;
+
+}
+.bannerBtn a i{
+    margin-left: 6px;
+}
+.bannerBtn a:hover{
+    background-color: #393E46BF;
+    transition: .3s;
+}
