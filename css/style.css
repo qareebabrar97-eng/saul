@@ -80,7 +80,7 @@ a{
 }
 .bannerBtn a{
     padding: 10px 32px;
-    background: #00ADB5;
+    background: #393E46BF;
     border-radius: 24px;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
@@ -93,6 +93,113 @@ a{
     margin-left: 6px;
 }
 .bannerBtn a:hover{
-    background-color: #393E46BF;
+    background-color: #00ADB5;
     transition: .3s;
+}
+/* Banner end */
+/* About start */
+#aboutPart{
+    padding-top: 230px;
+    padding-bottom: 201px;
+    background-color: #222831   ;
+}
+.aboutWrap{
+    display: flex;
+    position: relative;
+    gap: 179px;
+}
+.aboutTxt h2{
+     font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+.aboutTxt h2 span{
+    color: #00ADB5;
+}
+.aboutTxt p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #EEEEEE;
+    width: 389px;
+    /* margin-top: 24px; */
+}
+.aboutTxt p span{
+    font-weight: 700;
+     font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    
+    color: #EEEEEE;
+}
+.music{
+    position: absolute;
+    top:-150px;
+}
+.bulb{
+    position: absolute;
+    top:-10px;
+    left:350px;
+}
+.squiggly{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.aboutBorder{
+    background-color: #EEEEEE1A;
+    height: 2px;
+    margin-top: 84px;
+}
+/* Banner end */
+/* Project part start */
+#projectPart{
+    padding-top: 263px;
+    padding-bottom: 367px;
+    background-image: url("../images/doodle\ items.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-color:#222831;
+}
+.projectPage h2{
+     font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+.projectPage h2 span{
+    color: #00ADB5;
+}
+.projectBtn{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 48px;
+}
+
+.projectBtn button a{
+    background-color: rgba(57, 62, 70, 0.5);
+    border:none;
+    padding: 10px 32px;
+    border-radius: 24px;
+    color:#EEEEEE;
+     font-weight: 700;
+     font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+.projectBtn button{
+    background:none;
+    border:none;
+}
+.projectBtn button a:hover{
+    background-color: #00ADB5;
+    transition: .3s;
+}
+.cardOne{
+    padding:61px 52px;
+    background-color: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+}
+.projectCard{
+    display:flex;
+    gap:48px;
 }
